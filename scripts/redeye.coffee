@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   redeye - Display a redeye image
+#   hubot redeye - Display a redeye image
 #
 # Author:
 #   atmos

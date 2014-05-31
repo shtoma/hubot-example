@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   culo - Muestra la imagen atractiva de la cadera
+#  hubot culo - Muestra la imagen atractiva de la cadera
 #
 # Author:
 #   atmos
