@@ -1,1 +1,1 @@
-web: bin/hubot --adapter hipchat
+web: bin/hubot -a hipchat -n "dev-new1-hubot (ML)"
