@@ -9,11 +9,7 @@
 
 module.exports = (robot) ->
   robot.respond /PING$/i, (msg) ->
-<<<<<<< HEAD
-    msg.send "PONG"
-=======
     msg.send "PONGPONG"
->>>>>>> c7201eae113fad41b501015ecb87213fb479bf7e
 
   robot.respond /ECHO (.*)$/i, (msg) ->
     msg.send msg.match[1]
