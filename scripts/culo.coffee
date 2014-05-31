@@ -19,7 +19,6 @@ images = [
   "http://images.freshnessmag.com/wp-content/uploads/2013/11/parra-x-case-studyo-vaso-di-culo-porcelain-vase-06-570x379.jpg",
   "http://thetangential.com/wp-content/uploads/2012/03/bart-simpson-culo-350x514.jpg",
   "http://livedoor.blogimg.jp/nana_news/imgs/3/2/325a0590.jpg",
-  "https://p.twimg.com/AtO12YGCAAEDn_6.jpg"
 ]
 
 module.exports = (robot) ->
