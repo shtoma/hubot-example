@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   like an adult - Display a hyperbole and a half image
+#   redeye - Display a redeye image
 #
 # Author:
 #   atmos

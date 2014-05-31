@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   like an adult - Display a hyperbole and a half image
+#   culo - Muestra la imagen atractiva de la cadera
 #
 # Author:
 #   atmos

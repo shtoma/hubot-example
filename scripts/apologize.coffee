@@ -8,10 +8,10 @@
 #   None
 #
 # Commands:
-#   like an adult - Display a hyperbole and a half image
+#   apologize - Display a super apologizer image
 #
 # Author:
-#   atmos
+#  shtoma 
 
 images = [
   "http://hubot-api.herokuapp.com/imgs/apologize.gif"
