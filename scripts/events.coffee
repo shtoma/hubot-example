@@ -17,3 +17,15 @@ module.exports = (robot) ->
 
   robot.on 'debug', (event) ->
     robot.send event.user, util.inspect event
+
+  robot.on "imageMeSimple", (event) ->
+    queryString = event.query
+    q = v: '1.0', rsz: '8', q: queryString 
+    event.msg.http('http://ajax.googleapis.com/ajax/services/search/images')
+      .query(q)
+      .get() (err, res, body) ->
+        images = JSON.parse(body)
+        images = images.responseData?.results
+        if images?.length > 0
+          image  = event.msg.random images
+          event.msg.send "#{queryString} #{image.unescapedUrl}#.png"
