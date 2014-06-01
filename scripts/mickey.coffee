@@ -8,12 +8,12 @@
 #   None
 #
 # Commands:
-#  hubot おっぱい - 疲れたときにどうぞ
+#  hubot 社長
 #
 # Author:
 #   atmos
 util = require 'util'
 
 module.exports = (robot) ->
-  robot.hear /社長/i, (msg) ->
+  robot.hear /mickey|ミッキー|社長/i, (msg) ->
     robot.emit "imageMeSimple", {msg: msg, query: "三木谷浩史"}
