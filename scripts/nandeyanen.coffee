@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#  hubot おっぱい - 疲れたときにどうぞ
+#  hubot ネタフリしてみてください
 #
 # Author:
 #   atmos
