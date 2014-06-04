@@ -21,3 +21,7 @@ module.exports = (robot) ->
     msg.send "you can't kill me."
     #process.exit 0
 
+  robot.respond /what website do you like¥?/i, (msg) ->
+    msg.send "http://www.infoseek.co.jp"
+    #process.exit 0
+
