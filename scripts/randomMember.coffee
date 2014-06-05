@@ -37,7 +37,7 @@ module.exports = (robot) ->
     msg.send randomChooseUniqMember(meMembers)
 
   robot.respond /members in these days$|最近のメンバー$/i, (msg) ->
-    msg.send util.inspect robot.brain.data.membersTheseDays
+    msg.send util.inspect robot.brain.data
 
 
 
