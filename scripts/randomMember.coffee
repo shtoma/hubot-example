@@ -42,9 +42,9 @@ module.exports = (robot) ->
 
 
 randomChooseUniqMember = (members) ->
-  unless robot.brain.data.membersTheseDays
-    robot.brain.data.membersTheseDays = ''
-    robot.brain.save
+  #unless robot.brain.data.membersTheseDays
+  robot.brain.data.membersTheseDays = ''
+  #robot.brain.save
   
   memberToAssign = randomChoosedMember(members)
   #while memberToAssign in robot.brain.data.membersTheseDays
