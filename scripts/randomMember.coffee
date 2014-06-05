@@ -45,7 +45,7 @@ randomChooseUniqMember = (members) ->
   memberTheseDays = robot.brain.data.membersTheseDays
   unless memberTheseDays or memberTheseDays.count == meMembers.count
     robot.brain.data.membersTheseDays = []
-	robot.brain.save
+    robot.brain.save
   
   memberToAssign = randomChoosedMember(members)
   while memberToAssign in robot.brain.data.membersTheseDays
