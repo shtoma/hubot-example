@@ -30,26 +30,25 @@ module.exports = (robot) ->
   robot.respond /ME members$|MEの人たち$/i, (msg) ->
     msg.send util.inspect meMembers
 
-  robot.respond /select someone$|誰か$|だれか$/i, (msg) ->
+  robot.respond /someone$|誰か$|だれか$/i, (msg) ->
     msg.send randomChoosedMember(meMembers)
 
-  robot.respond /tell me news sharing member$|今日の.*.メンバー$/i, (msg) ->
+  robot.respond /member to share news$|今日の.*.メンバー$/i, (msg) ->
     msg.send randomChooseUniqMember(meMembers)
 
-  robot.respond /tell me members in these days$|最近のメンバー$/i, (msg) ->
+  robot.respond /members in these days$|最近のメンバー$/i, (msg) ->
     msg.send util.inspect robot.brain.data.membersTheseDays
 
 
 
 randomChooseUniqMember = (members) ->
-  memberTheseDays = robot.brain.data.membersTheseDays
-  unless memberTheseDays or memberTheseDays.count == meMembers.count
+  unless robot.brain.data.membersTheseDays
     robot.brain.data.membersTheseDays = ''
     robot.brain.save
   
   memberToAssign = randomChoosedMember(members)
-  while memberToAssign in robot.brain.data.membersTheseDays
-    memberToAssign = randomChoosedMember(members)
+  #while memberToAssign in robot.brain.data.membersTheseDays
+  #  memberToAssign = randomChoosedMember(members)
   robot.brain.data.membersTheseDays += memberToAssign 
   robot.brain.save
   memberToAssign 
