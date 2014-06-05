@@ -44,13 +44,13 @@ module.exports = (robot) ->
 randomChooseUniqMember = (members) ->
   memberTheseDays = robot.brain.data.membersTheseDays
   unless memberTheseDays or memberTheseDays.count == meMembers.count
-    robot.brain.data.membersTheseDays = []
+    robot.brain.data.membersTheseDays = ''
     robot.brain.save
   
   memberToAssign = randomChoosedMember(members)
   while memberToAssign in robot.brain.data.membersTheseDays
     memberToAssign = randomChoosedMember(members)
-  robot.brain.data.membersTheseDays.push memberToAssign 
+  robot.brain.data.membersTheseDays += memberToAssign 
   robot.brain.save
   memberToAssign 
 
