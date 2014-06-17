@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#  hubot 
+#  おっぱい 
 #
 # Author:
 #   atmos

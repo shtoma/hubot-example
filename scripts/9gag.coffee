@@ -9,7 +9,7 @@
 #   None
 #
 # Commands:
-#   hubot 9gag me - Returns a random meme image
+# 9gag me - Returns a random meme image
 #
 # Author:
 #   EnriqueVidal 

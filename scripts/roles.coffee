@@ -2,13 +2,13 @@
 #   Assign roles to people you're chatting with
 #
 # Commands:
-#   hubot <user> is a badass guitarist - assign a role to a user
-#   hubot <user> is not a badass guitarist - remove a role from a user
-#   hubot who is <user> - see what roles a user has
+# <user> is a badass guitarist - assign a role to a user
+# <user> is not a badass guitarist - remove a role from a user
+# who is <user> - see what roles a user has
 #
 # Examples:
-#   hubot holman is an ego surfer
-#   hubot holman is not an ego surfer
+# holman is an ego surfer
+# holman is not an ego surfer
 
 module.exports = (robot) ->
 

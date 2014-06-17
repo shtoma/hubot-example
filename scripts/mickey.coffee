@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#  hubot 社長
+#  社長
 #
 # Author:
 #   atmos

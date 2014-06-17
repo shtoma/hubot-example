@@ -2,9 +2,9 @@
 #   Utility commands surrounding Hubot uptime.
 #
 # Commands:
-#   hubot ぴん - Reply with ぽん
-#   hubot 今何時 - Reply with current time
-#   hubot ばいばい - End hubot process
+# ぴん - Reply with ぽん
+# 今何時 - Reply with current time
+# ばいばい - End process
 
 module.exports = (robot) ->
   robot.respond /ぴんぐ?$/i, (msg) ->

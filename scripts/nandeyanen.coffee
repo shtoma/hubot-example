@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#  hubot ネタフリしてみてください
+#  ネタフリしてみてください
 #
 # Author:
 #   atmos

@@ -2,10 +2,10 @@
 #   Event system related utilities
 #
 # Commands:
-#   hubot fake event <event> - Triggers the <event> event for debugging reasons
+# fake event <event> - Triggers the <event> event for debugging reasons
 #
 # Events:
-#   hubot debug - {user: <user object to send message to>}
+# debug - {user: <user object to send message to>}
 
 util = require 'util'
 

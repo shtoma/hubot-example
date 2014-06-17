@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#  hubot apologize - Display a super apologizer image
+#  apologize - Display a super apologizer image
 #
 # Author:
 #  shtoma 

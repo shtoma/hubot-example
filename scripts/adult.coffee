@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot like an adult - Display a hyperbole and a half image
+# like an adult - Display a hyperbole and a half image
 #
 # Author:
 #   atmos
